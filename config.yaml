@@ -1,0 +1,97 @@
+baseURL: https://example.com
+title: Timeline
+languageCode: en-us
+theme: hugo-theme-timeline
+PygmentsCodeFences: yes
+PygmentsStyle: monokai
+paginate: 10
+rssLimit: 10
+copyright: This work is licensed under a MIT License.
+archetypeDir: archetypes
+contentDir: content
+dataDir: data
+layoutDir: layouts
+publishDir: public
+buildDrafts: no
+buildFuture: no
+buildExpired: no
+canonifyURLs: yes
+enableRobotsTXT: yes
+enableGitInfo: no
+enableEmoji: yes
+enableMissingTranslationPlaceholders: no
+disableRSS: no
+disableSitemap: no
+disable404: no
+disableHugoGeneratorInject: no
+permalinks:
+  posts: /posts/:year/:month/:title/
+author:
+  name: timeline
+blackfriday:
+  hrefTargetBlank: yes
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+params:
+  customCSS: css/custom.css
+  customJS: []
+  dateform: Jan 2, 2006
+  dateformNum: '2006-01-02'
+  dateformNumTime: 2006-01-02 15:04 -0700
+  dateformShort: Jan 2
+  defaultTheme: dark
+  description: Timeline hugo template for your work experience, researches, achievement
+    and more
+  disableReadOtherPosts: no
+  enableSharingButtons: yes
+  favicon:
+    color:
+      mask: '#252627'
+      msapplication: '#252627'
+      theme: '#252627'
+  homeSubtitle: timeline template for hugo
+  images: ''
+  justifyContent: no
+  keywords: timeline hugo template
+  logo:
+    logoHomeLink: /
+    logoText: $
+  social:
+    - name: twitter
+      url: '#'
+    - name: instagram
+      url: '#'
+    - name: facebook
+      url: '#'
+    - name: linkedin
+      url: '#'
+    - name: github
+      url: '#'
+    - name: reddit
+      url: '#'
+    - name: keybase
+      url: '#'
+  themeColor: '#252627'
+languages:
+  en:
+    copyright: ''
+    subtitle: Timeline
+    weight: 1
+  fr:
+    copyright: <a href="https://github.com/s4n7h0/hugo-theme-timeline/blob/main/LICENSE"
+      target="_blank" rel="noopener">MIT</a>
+    subtitle: Timeline
+    weight: 2
+menu:
+  main:
+    - identifier: timeline
+      name: Timeline
+      url: timeline/
+      weight: 1
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
