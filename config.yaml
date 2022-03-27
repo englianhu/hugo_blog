@@ -1,6 +1,6 @@
-baseURL: https://example.com
-title: Timeline
-languageCode: en-us
+baseURL: https://englianhu.wordpress.com
+title: Ryo Eng Lian Hu
+languageCode: zh-cn
 theme: hugo-theme-timeline
 PygmentsCodeFences: yes
 PygmentsStyle: monokai
